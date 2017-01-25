@@ -47,27 +47,39 @@
 
             <Button
                 android:text="+"
+                android:tag="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:id="@+id/button1"
+                android:onClick="adjustLifeCounter"/>
 
             <Button
                 android:text="-"
+                android:tag="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:id="@+id/button2"
+                android:onClick="adjustLifeCounter"/>
 
             <Button
                 android:text="+5"
+                android:tag="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:id="@+id/button3"
+                android:onClick="adjustLifeCounter"/>
 
             <Button
                 android:text="-5"
+                android:tag="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:id="@+id/button4"
+                android:onClick="adjustLifeCounter"/>
         </LinearLayout>
 
         <LinearLayout
@@ -99,27 +111,39 @@
 
             <Button
                 android:text="+"
+                android:tag="2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:id="@+id/button5"
+                android:onClick="adjustLifeCounter"/>
 
             <Button
                 android:text="-"
+                android:tag="2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:id="@+id/button6"
+                android:onClick="adjustLifeCounter"/>
 
             <Button
                 android:text="+5"
+                android:tag="2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:id="@+id/button7"
+                android:onClick="adjustLifeCounter"/>
 
             <Button
                 android:text="-5"
+                android:tag="2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:id="@+id/button8"
+                android:onClick="adjustLifeCounter"/>
         </LinearLayout>
 
         <LinearLayout
@@ -151,27 +175,39 @@
 
             <Button
                 android:text="+"
+                android:tag="3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:id="@+id/button9"
+                android:onClick="adjustLifeCounter"/>
 
             <Button
                 android:text="-"
+                android:tag="3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:id="@+id/button10"
+                android:onClick="adjustLifeCounter"/>
 
             <Button
                 android:text="+5"
+                android:tag="3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:id="@+id/button11"
+                android:onClick="adjustLifeCounter"/>
 
             <Button
                 android:text="-5"
+                android:tag="3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:id="@+id/button12"
+                android:onClick="adjustLifeCounter"/>
         </LinearLayout>
 
         <LinearLayout
@@ -203,27 +239,39 @@
 
             <Button
                 android:text="+"
+                android:tag="4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:id="@+id/button13"
+                android:onClick="adjustLifeCounter"/>
 
             <Button
                 android:text="-"
+                android:tag="4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:id="@+id/button14"
+                android:onClick="adjustLifeCounter"/>
 
             <Button
                 android:text="+5"
+                android:tag="4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:id="@+id/button15"
+                android:onClick="adjustLifeCounter"/>
 
             <Button
                 android:text="-5"
+                android:tag="4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:id="@+id/button16"
+                android:onClick="adjustLifeCounter"/>
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
