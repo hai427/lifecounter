@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView[] players = new TextView[4];
     TextView[] lifeCounterLabels = new TextView[4];
+    TextView loser;
     Button[] buttons = new Button[16];
     int[] counters = new int[4];
 
@@ -17,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        loser = (TextView) (findViewById(R.id.loser));
 
         for (int i=0; i<4; i++) {
             counters[i] = 20;
@@ -31,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void adjustLifeCounter(View v){
+
+        loser.setText("");
+
         Button button = (Button) v;
         int playerId = Integer.parseInt(button.getTag().toString()) - 1;
         String text = button.getText().toString();
@@ -49,6 +55,10 @@ public class MainActivity extends AppCompatActivity {
         if(text.equals("-5")) {
             counters[playerId]-=5;
             lifeCounterLabels[playerId].setText("Life Counter: " + counters[playerId]);
+        }
+
+        if(counters[playerId] <= 0) {
+            loser.setText("Player " + (playerId + 1) + " LOSES!");
         }
     }
 }
